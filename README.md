@@ -5,8 +5,14 @@ The playbook will outline various techniques and tools that red teamers can leve
 
 ## Table of Contents
 
-- [Start](0)
-- [Reconaissance](0) 
-
+<ul>
+    <li><a href="#start">Start</a></li>
+    <li><a href="#reconnaissance">1 Reconnaissance</a>
+        <ul>
+            <li><a href="#tools">1.1 Tools</a></li>
+            <li><a href="#techniques">1.2 Techniques</a></li>
+        </ul>
+    </li>
+</ul>
 
 ## Resources used for the Playbook
