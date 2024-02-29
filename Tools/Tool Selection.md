@@ -69,7 +69,7 @@
     <br>
     <code>nmap -sV "target"</code>  <br>
     <br>
-    <p><strong>Aggressive Scan:</strong> performs a fast, comprehensive scan on all TCP ports of a specified target, identifying services, versions, operating systems, and more, with the results saved toa txt file.</p>
+    <p><strong>Aggressive Scan:</strong> performs a fast, comprehensive scan on all TCP ports of a specified target, identifying services, versions, operating systems, and more, with the results saved to a .txt file.</p>
     <br>
     <code>nmap -sS -A -T4 -O -sV -p- -oN target.txt "target"</code>
     <br>
