@@ -66,9 +66,13 @@
      <h1>Commands for Target Analysis</h1>
     <h2>Nmap</h2>
     <p><strong>Basic Scan:</strong> Checks for open ports and running services.</p>
+    <br>
     <code>nmap -sV "target"</code>
-    <p><strong>Aggressive Scan:</strong> Provides more details, including OS detection, version detection, script scanning, and traceroute.</p>
-    <code>nmap -A "target"</code>
+    <br>
+    <p><strong>Aggressive Scan:</strong> performs a fast, comprehensive scan on all TCP ports of a specified target, identifying services, versions, operating systems, and more, with the results saved toa txt file.</p>
+    <br>
+    <code>nmap -sS -A -T4 -O -sV -p- -oN target.txt "target"</code>
+    <br>
     <h2>Shodan</h2>
     <p>Use the Shodan CLI to search for information about an IP, assuming you have the API key.</p>
     <code>shodan host "target"</code>
@@ -80,7 +84,8 @@
 <br>
     <h2>Censys</h2>
     <p>Using the Censys CLI, an example command for searching IP information, with API key:</p>
-    <code>censys search "target"</code>
+    <br>
+    <code>censys search "target"</code><br>
 <br>
 
 <img width="1013" alt="censys2" src="https://github.com/jcpio00/External_Reconnaissance_Playbook/assets/72210067/39c2d5e5-d684-4211-8ca4-a4903848a7a6">
@@ -88,7 +93,9 @@
 <br>
     <h2>SSL Scan</h2>
     <p>Checks the SSL/TLS certificates and configurations of services running on the default HTTPS port.</p>
+    <br>
     <code>sslscan "target"</code>
+    <br>
     <h2>VirusTotal</h2>
     <p>Used to check for any associated domains, URLs, or files reported as malicious, typically through the web interface or API.</p>
 <br>
