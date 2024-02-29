@@ -9,6 +9,7 @@
         <li>Search engines</li>
         <li>SSL Certificate Information</li>
         <li>Cryptographic measures</li>
+         <li>Hidden Files/Directories</li>
     </ul>
      <h1>Penetration Testing Tools Overview</h1>
     <table>
