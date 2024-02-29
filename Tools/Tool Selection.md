@@ -82,6 +82,12 @@
     <p>Used to check for any associated domains, URLs, or files reported as malicious, typically through the web interface or API.</p>
     <h3>Note on Maltego, Hunter, and DNSDumpster</h3>
     <p>These tools are more oriented towards domain names and email addresses rather than direct IP address interrogation.</p>
+    <h3>Maltego</h3>
+    <p>Use the Maltego application to visually map relationships. Example transforms are initiated via the GUI.</p>
+    <h3>Hunter</h3>
+    <p>Access through the web interface and enter the domain to search for email addresses associated with it.</p>
+    <h3>DNSDumpster</h3>
+    <p>Access through the web interface and enter the domain to find DNS records.</p>
     <h2>DirBuster</h2>
     <p>DirBuster is designed to find directories and files on web servers. It is more about configuring and running the tool through its interface for web servers running on the IP address.</p>
     <p><em>Always ensure that your usage of these tools is authorized and ethical to avoid legal repercussions.</em></p>
