@@ -21,6 +21,7 @@
             <td>Shodan</td>
             <td>Searches for devices connected to the internet.</td>
             <td>Exposed devices and services.</td>
+            ![alt text](http://url/to/img.png)
         </tr>
         <tr>
             <td>DNSDumpster</td>
