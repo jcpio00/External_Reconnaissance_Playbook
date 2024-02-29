@@ -63,3 +63,27 @@
             <td>Malicious files, URLs, and software detection.</td>
         </tr>
     </table>
+     <h1>Penetration Testing: Commands for IP Address Analysis</h1>
+    <h2>Nmap</h2>
+    <p><strong>Basic Scan:</strong> Checks for open ports and running services.</p>
+    <code>nmap -sV 192.168.1.1</code>
+    <p><strong>Aggressive Scan:</strong> Provides more details, including OS detection, version detection, script scanning, and traceroute.</p>
+    <code>nmap -A 192.168.1.1</code>
+    <h2>Shodan</h2>
+    <p>Use the Shodan CLI to search for information about an IP, assuming you have the API key.</p>
+    <code>shodan host 192.168.1.1</code>
+    <h2>Censys</h2>
+    <p>Using the Censys CLI, an example command for searching IP information, with API key:</p>
+    <code>censys search "ip:192.168.1.1"</code>
+    <h2>SSL Scan</h2>
+    <p>Checks the SSL/TLS certificates and configurations of services running on the default HTTPS port.</p>
+    <code>sslscan 192.168.1.1</code>
+    <h2>VirusTotal</h2>
+    <p>Used to check for any associated domains, URLs, or files reported as malicious, typically through the web interface or API.</p>
+    <h3>Note on Maltego, Hunter, and DNSDumpster</h3>
+    <p>These tools are more oriented towards domain names and email addresses rather than direct IP address interrogation.</p>
+    <h2>DirBuster</h2>
+    <p>DirBuster is designed to find directories and files on web servers. It is more about configuring and running the tool through its interface for web servers running on the IP address.</p>
+    <p><em>Always ensure that your usage of these tools is authorized and ethical to avoid legal repercussions.</em></p>
+
+    
