@@ -75,7 +75,7 @@
     <h2>Censys</h2>
     <p>Using the Censys CLI, an example command for searching IP information, with API key:</p>
     <code>censys search "target"</code>
-    ![alt text](https://support.censys.io/hc/article_attachments/19192751432212)
+    ![Alt text](https://support.censys.io/hc/article_attachments/19192751432212)
     <h2>SSL Scan</h2>
     <p>Checks the SSL/TLS certificates and configurations of services running on the default HTTPS port.</p>
     <code>sslscan "target"</code>
