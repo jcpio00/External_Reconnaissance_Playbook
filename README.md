@@ -1,4 +1,4 @@
-# Red_Team_Reconnaissance_Playbook
+# External_Reconnaissance_Playbook
 
 Enhance the existing Red Team Reconnaissance Playbook to provide a comprehensive guide for cybersecurity professionals engaged in penetration testing and security assessments.
 The playbook will outline various techniques and tools that red teamers can leverage to conduct effective reconnaissance while maintaining stealth and minimizing detection.
@@ -10,7 +10,7 @@ The playbook will outline various techniques and tools that red teamers can leve
     <li><a href="#reconnaissance">1 Reconnaissance</a>
         <ul>
             <li><a href="#tools">1.1 Tools</a></li>
-            <li><a href="#techniques">1.2 Techniques</a></li>
+           
         </ul>
     </li>
 </ul>
