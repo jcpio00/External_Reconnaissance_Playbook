@@ -1,17 +1,17 @@
-<h1>Reconnaissance in Penetration Testing</h1>
+<h1>External Reconnaissance in Penetration Testing</h1>
 
 <section>
     <h2>Introduction</h2>
     <p>
-        Reconnaissance is a crucial initial phase in penetration testing. It involves gathering information about a target to identify vulnerabilities and systems that can be exploited. This phase can be either passive, involving information gathering without direct interaction, or active, which involves engaging directly with the system. The objective is to gather enough information to effectively plan and execute a penetration test.
+        External reconnaissance is a key phase in penetration testing focused on collecting data about a target from outside its network. This passive information gathering phase aims to uncover vulnerabilities, systems, and services that could be exploited, without alerting the target. Techniques involve analyzing publicly available information to construct a comprehensive overview of the target's digital footprint.
     </p>
 </section>
 
 <section>
     <h2>Objectives</h2>
     <ul>
-        <li>Identify potential vulnerabilities.</li>
-        <li>Discover services and systems.</li>
-        <li>Plan effective penetration tests.</li>
+        <li>Map out the target's digital footprint.</li>
+        <li>Identify potential vulnerabilities from public sources.</li>
+        <li>Gather intelligence to aid in planning further penetration testing strategies.</li>
     </ul>
 </section>
