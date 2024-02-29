@@ -72,31 +72,65 @@
     <h2>Shodan</h2>
     <p>Use the Shodan CLI to search for information about an IP, assuming you have the API key.</p>
     <code>shodan host "target"</code>
-      <p><img src="" alt="alt text"></p>
+    
+<br>
+    
+![shodan1](https://github.com/jcpio00/External_Reconnaissance_Playbook/assets/72210067/001f9a86-1e0b-4e28-9c03-b3615e268410)
+
+<br>
     <h2>Censys</h2>
     <p>Using the Censys CLI, an example command for searching IP information, with API key:</p>
     <code>censys search "target"</code>
-     <p><img src="" alt="alt text"></p>
+<br>
+
+<img width="1013" alt="censys2" src="https://github.com/jcpio00/External_Reconnaissance_Playbook/assets/72210067/39c2d5e5-d684-4211-8ca4-a4903848a7a6">
+
+<br>
     <h2>SSL Scan</h2>
     <p>Checks the SSL/TLS certificates and configurations of services running on the default HTTPS port.</p>
     <code>sslscan "target"</code>
     <h2>VirusTotal</h2>
     <p>Used to check for any associated domains, URLs, or files reported as malicious, typically through the web interface or API.</p>
-    <p><img src="" alt="alt text"></p>
+<br>
+
+![virustotal](https://github.com/jcpio00/External_Reconnaissance_Playbook/assets/72210067/38457cd7-f664-4d92-b1d3-25d84d5b5150)
+
+
+<br>
     <h3>Note on Maltego, Hunter, and DNSDumpster</h3>
     <p>These tools are more oriented towards domain names and email addresses rather than direct IP address interrogation.</p>
     <h3>Maltego</h3>
     <p>Use the Maltego application to visually map relationships. Example transforms are initiated via the GUI.</p>
-    <p><img src="" alt="alt text"></p>
+<br>
+
+![maltego](https://github.com/jcpio00/External_Reconnaissance_Playbook/assets/72210067/e4760a9a-589d-49b6-b5f8-95fb65408863)
+
+
+<br>
     <h3>Hunter</h3>
     <p>Access through the web interface and enter the domain to search for email addresses associated with it.</p>
-    <p><img src="" alt="alt text"></p>
+<br>
+
+![hunter](https://github.com/jcpio00/External_Reconnaissance_Playbook/assets/72210067/862f0c95-1947-4b2c-b010-c241b8419ac8)
+
+
+<br>
     <h3>DNSDumpster</h3>
     <p>Access through the web interface and enter the domain to find DNS records.</p>
-    <p><img src="" alt="alt text"></p>
+<br>
+
+![dnsdumpster](https://github.com/jcpio00/External_Reconnaissance_Playbook/assets/72210067/e2aaf935-87c0-49eb-94df-3add5f5b9ba2)
+
+
+<br>
     <h2>DirBuster</h2>
     <p>DirBuster is designed to find directories and files on web servers. It is more about configuring and running the tool through its interface for web servers running on the IP address.</p>
-    <p><img src="" alt="alt text"></p>
+<br>
+
+![dirbuster](https://github.com/jcpio00/External_Reconnaissance_Playbook/assets/72210067/b333371c-2ca6-4ca1-b358-c4e5c51450f8)
+
+
+<br>
     <p><em>Always ensure that your usage of these tools is authorized and ethical to avoid legal repercussions.</em></p>
 
    
