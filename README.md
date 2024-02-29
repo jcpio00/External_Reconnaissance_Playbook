@@ -7,9 +7,9 @@ The playbook will outline various techniques and tools that pentesters can lever
 
 <ul>
     <li><a href="#start">Start</a></li>
-    <li><a href="#reconnaissance">1 Reconnaissance</a>
+    <li><a href="https://github.com/jcpio00/External_Reconnaissance_Playbook/tree/main/Reconnaissance">1 Reconnaissance</a>
         <ul>
-            <li><a href="#tools">1.1 Tools</a></li>
+            <li><a href="Tools/Tool Selection.md">1.1 Tools</a></li>
 </ul>
 
 ## Resources used for the Playbook
