@@ -67,7 +67,7 @@
     <h2>Nmap</h2>
     <p><strong>Basic Scan:</strong> Checks for open ports and running services.</p>
     <br>
-    <code>nmap -sV "target"</code>
+    <code>nmap -sV "target"</code>  <br>
     <br>
     <p><strong>Aggressive Scan:</strong> performs a fast, comprehensive scan on all TCP ports of a specified target, identifying services, versions, operating systems, and more, with the results saved toa txt file.</p>
     <br>
@@ -75,7 +75,7 @@
     <br>
     <h2>Shodan</h2>
     <p>Use the Shodan CLI to search for information about an IP, assuming you have the API key.</p>
-    <code>shodan host "target"</code>
+    <code>shodan host "target"</code>  <br>
     
 <br>
     
