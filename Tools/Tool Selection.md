@@ -72,25 +72,33 @@
     <h2>Shodan</h2>
     <p>Use the Shodan CLI to search for information about an IP, assuming you have the API key.</p>
     <code>shodan host "target"</code>
+      <p><img src="" alt="alt text"></p>
     <h2>Censys</h2>
     <p>Using the Censys CLI, an example command for searching IP information, with API key:</p>
     <code>censys search "target"</code>
-    <p>![Alt text](https://support.censys.io/hc/article_attachments/19192751432212)</p>
+     <p><img src="" alt="alt text"></p>
     <h2>SSL Scan</h2>
     <p>Checks the SSL/TLS certificates and configurations of services running on the default HTTPS port.</p>
     <code>sslscan "target"</code>
     <h2>VirusTotal</h2>
     <p>Used to check for any associated domains, URLs, or files reported as malicious, typically through the web interface or API.</p>
+    <p><img src="" alt="alt text"></p>
     <h3>Note on Maltego, Hunter, and DNSDumpster</h3>
     <p>These tools are more oriented towards domain names and email addresses rather than direct IP address interrogation.</p>
     <h3>Maltego</h3>
     <p>Use the Maltego application to visually map relationships. Example transforms are initiated via the GUI.</p>
+    <p><img src="" alt="alt text"></p>
     <h3>Hunter</h3>
     <p>Access through the web interface and enter the domain to search for email addresses associated with it.</p>
+    <p><img src="" alt="alt text"></p>
     <h3>DNSDumpster</h3>
     <p>Access through the web interface and enter the domain to find DNS records.</p>
+    <p><img src="" alt="alt text"></p>
     <h2>DirBuster</h2>
     <p>DirBuster is designed to find directories and files on web servers. It is more about configuring and running the tool through its interface for web servers running on the IP address.</p>
+    <p><img src="" alt="alt text"></p>
     <p><em>Always ensure that your usage of these tools is authorized and ethical to avoid legal repercussions.</em></p>
+
+   
 
     
