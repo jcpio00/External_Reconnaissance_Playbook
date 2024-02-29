@@ -30,4 +30,4 @@ The playbook will outline various techniques and tools that pentesters can lever
 
 <p> SSL Scan. Retrieved from <a href="https://github.com/rbsec/sslscan">https://github.com/rbsec/sslscan</a></p>
 
-<p>V VirusTotal. Retrieved from <a href="https://www.virustotal.com/">https://www.virustotal.com/</a></p>
+<p> VirusTotal. Retrieved from <a href="https://www.virustotal.com/">https://www.virustotal.com/</a></p>
