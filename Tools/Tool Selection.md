@@ -63,21 +63,21 @@
             <td>Malicious files, URLs, and software detection.</td>
         </tr>
     </table>
-     <h1>Penetration Testing: Commands for IP Address Analysis</h1>
+     <h1>Commands for Target Analysis</h1>
     <h2>Nmap</h2>
     <p><strong>Basic Scan:</strong> Checks for open ports and running services.</p>
-    <code>nmap -sV 192.168.1.1</code>
+    <code>nmap -sV "target"</code>
     <p><strong>Aggressive Scan:</strong> Provides more details, including OS detection, version detection, script scanning, and traceroute.</p>
-    <code>nmap -A 192.168.1.1</code>
+    <code>nmap -A "target"</code>
     <h2>Shodan</h2>
     <p>Use the Shodan CLI to search for information about an IP, assuming you have the API key.</p>
-    <code>shodan host 192.168.1.1</code>
+    <code>shodan host "target"</code>
     <h2>Censys</h2>
     <p>Using the Censys CLI, an example command for searching IP information, with API key:</p>
-    <code>censys search "ip:192.168.1.1"</code>
+    <code>censys search "target"</code>
     <h2>SSL Scan</h2>
     <p>Checks the SSL/TLS certificates and configurations of services running on the default HTTPS port.</p>
-    <code>sslscan 192.168.1.1</code>
+    <code>sslscan "target"</code>
     <h2>VirusTotal</h2>
     <p>Used to check for any associated domains, URLs, or files reported as malicious, typically through the web interface or API.</p>
     <h3>Note on Maltego, Hunter, and DNSDumpster</h3>
