@@ -31,5 +31,5 @@ The playbook will outline various techniques and tools that pentesters can lever
 <p> SSL Scan. Retrieved from <a href="https://github.com/rbsec/sslscan">https://github.com/rbsec/sslscan</a></p>
 
 <p> VirusTotal. Retrieved from <a href="https://www.virustotal.com/">https://www.virustotal.com/</a></p>
-This Red Team Playbook is designed for educational and professional development purposes within the realm of cybersecurity. It contains strategies, techniques, and procedures employed by red teams to conduct authorized security assessments and penetration tests. The intent is to enhance the cybersecurity posture of organizations by identifying vulnerabilities and providing recommendations for strengthening defenses.
+This Playbook is designed for educational and professional development purposes within the realm of cybersecurity. It contains strategies, techniques, and procedures employed by red teams to conduct authorized security assessments and penetration tests. The intent is to enhance the cybersecurity posture of organizations by identifying vulnerabilities and providing recommendations for strengthening defenses.
 By using this playbook, you acknowledge and agree to these terms, committing to ethical and responsible use in all cybersecurity activities.
